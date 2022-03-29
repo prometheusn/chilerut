@@ -12,7 +12,7 @@ ChileRUT es una librería con diversas utilidades para el RUT/RUN
 
 ## Documentación
 
-Para instalación y toda la documentación: https://prometheusn.github.io/chilerut
+Para instalación y toda la documentación: https://chilerut.netlify.app
 
 Para la API: https://paka.dev/npm/chilerut
 
