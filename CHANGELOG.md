@@ -1,6 +1,6 @@
 
 
-### [0.4.4](https://github.com/prometheusn/chilerut/compare/v0.4.3...v0.4.4) (2022-03-28)
+### [1.0.1](https://github.com/prometheusn/chilerut/compare/v1.0.0...v1.0.1) (2022-03-29)### [0.4.4](https://github.com/prometheusn/chilerut/compare/v0.4.3...v0.4.4) (2022-03-28)
 
 
 ### Style

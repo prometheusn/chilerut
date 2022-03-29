@@ -1,6 +1,6 @@
 {
   "name": "chilerut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Una librería con diversas utilidades para el RUN/RUT chileno.",
   "type": "commonjs",
   "main": "dist/index.js",
