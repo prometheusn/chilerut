@@ -1,0 +1,48 @@
+{
+  "name": "chilerut",
+  "version": "1.0.0",
+  "description": "Una librería con diversas utilidades para el RUN/RUT chileno.",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "homepage": "chilerut.netlify.app",
+  "repository": "prometheusn/chilerut",
+  "files": [
+    "dist",
+    "README.MD",
+    "LICENSE.md",
+    "package.json"
+  ],
+  "keywords": [
+    "chilerut",
+    "chile",
+    "rut",
+    "run"
+  ],
+  "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "test": "vitest",
+    "build": "tsup src/index.ts --format esm,cjs --dts --splitting --clean",
+    "prepublishOnly": "pnpm run build"
+  },
+  "author": "Prometheus <prometheusjan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tsup": "^5.12.1",
+    "typescript": "^4.6.3",
+    "vitest": "^0.5.9"
+  }
+}
